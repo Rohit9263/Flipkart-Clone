@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: whitesmoke;
+}
+nav{
+background-color: white;
+display: flex;
+padding: 0 0 0 25px;
+/* align-items: center; */
+/* justify-content: start; */
+height: 67.2px;
+}
+.search{
+    width: 49%;
+    /* height: 38px; */
+    align-items: center;
+    border: 0px;
+    /* margin: 0 0 0 40px; */
+    display: flex;
+    margin-left: 40px;
+    background: #9ac8d824;
+    border-radius: 8px;
+}
+.search span{
+    padding: 7px ;
+}
+#search{
+    padding-left: 10px;
+    width: 100%;
+    height: 38px;
+    /* border-radius: 5px; */
+    border: 0px;
+    font-size: 17px;
+    background: transparent;
+    outline: none;
+
+}
+.navigation{
+    margin: 0 5px 0 41px;
+}
+.cart{
+    margin: 0 24px 0 45px;
+    display: flex;
+    align-items: center;
+    
+}
+.Become-a-Seller{
+    margin: 0 40px 0 35px;
+    display: flex;
+    align-items: center;
+    
+}
+.option{
+    /* width: 100%; */
+    display: flex;
+    /* margin-left: -55px; */
+    /* text-align: center; */
+}
+/* .option button{
+    border: 0;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+} */
+.option select{
+    width: 100%;
+    border : 0;
+    /* min-width: 130px; */
+    background-color: transparent;
+    max-width: 65px;
+}
+.logo{
+    display: flex;
+    width:100%;
+    align-items: center;
+}
+.dotcom{
+    margin: 0 0 0 25px;
+}
+.category{
+    margin: 8px 15px 0 15px;
+    background-color: white;
+    display: flex;
+    text-align: center;
+    height: 125px;
+    border: 0.01px solid rgb(192, 198, 200);
+
+    align-items: center;
+    justify-content: space-evenly;
+}
+.category .category-list a{
+    text-decoration: none;
+    color: black;
+}
+.scroling-img{
+    /* background-color: red; */
+    pointer-events: none;
+    /* width: 100%; */
+    margin: 15px 15px 0 15px;
+}
+.scroling-img img{
+    width: 100%;
+  
+}
+.hello1{
+    display: flex;
+}
+.phones {
+    /* display: flex; */
+    width: 100%;
+    /* margin: 0 auto; */
+    /* text-align: center; */
+    /* align-items: center; */
+    background-color: white;
+    overflow-x: scroll;
+    align-items: center;
+    margin: 15px 15px 0 15px;
+    height: 7.6cm;
+}
+.phones ul{
+    display: flex;
+    margin: 0 15px;
+}
+.phones .best{
+    font-size: 1.6rem;
+    margin: 0 0 0 15px;
+}
+.phones li{
+    /* width: 20%; */
+    list-style-type: none;
+    text-align: center;
+    padding: 5px 1.4cm;
+    height: 5.6cm;
+    margin: 0 0 0 10px;
+    background-color: white;
+    width: 4.4cm;
+    border: 0.01px solid rgb(192, 198, 200);
+
+}
+.phones li a img{
+    /* height: 4cm; */
+    height: 100%;
+}
